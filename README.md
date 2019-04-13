@@ -16,4 +16,4 @@ This is very simple "Switcher” component created on Vue, which can be used ins
 
 <p>After installation, all you need is import Switcher component, using the next syntax:</p>
 <pre>import Switcher from "simple-checkbox-switcher-vue"</pre>
-<p>and bind needed property with the component in the common way (using "v-bind" or ":" syntax).</p>
+<p>and bind needed property with the component in the common way (using "v-model").</p>
