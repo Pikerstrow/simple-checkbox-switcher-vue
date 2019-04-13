@@ -11,6 +11,11 @@
     export default {
         name: "Switcher",
         props: ['value'],
+        data(){
+           return {
+              val: ''
+           }
+        },
         computed: {
             backgroundColor(){
                 return this.value ? 'lightgreen' : 'lightgrey'
@@ -31,9 +36,12 @@
                 }
 
                 /*For switcher container background and emitting an input event with correct params*/
-                this.value = !this.value;
-                this.$emit('input', this.value);
+                this.val = !this.val;
+                this.$emit('input', this.val);
             }
+        },
+        mounted(){
+           this.val = this.value;
         }
     }
 </script>
