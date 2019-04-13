@@ -1,0 +1,32 @@
+{
+  "name": "simple-checkbox-switcher-vue",
+  "version": "1.0.0",
+  "description": "Just a simple switcher component made on vue js",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "vue-js-checkbox-switcher", "switcher vue", "vue switcher checkbox"
+  ],
+  "author": "Oleksandr Mishchuk",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
